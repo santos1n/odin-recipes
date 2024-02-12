@@ -27,14 +27,25 @@ a {
 }
 
 .container {
-  width: 90%;
+  width: 75%;
   max-width: 1920px;
   margin: 0 auto;
 }
 
-h1 {
+h1,
+h2 {
   font-size: 2.75rem;
   color: #434343;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+p {
+  width: 50%;
+  margin: 0 auto;
+  padding: 1em 0;
 }
 
 .index {
@@ -46,6 +57,10 @@ h1 {
   list-style: none;
   margin-left: -50px;
   margin-bottom: 1em;
+}
+
+.index img {
+  width: 40%;
 }
 
 a:hover {
